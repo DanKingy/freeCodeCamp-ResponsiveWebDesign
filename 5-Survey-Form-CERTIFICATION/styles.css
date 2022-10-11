@@ -61,9 +61,6 @@ body{
     border-radius: 1%;
 }
 
-#dropdown{
-}
-
 .form-control{
     display: block;
     margin: auto;
@@ -98,22 +95,6 @@ body{
     color: inherit;
 }
 
-.personal-information{
-
-}
-
-.current-role{
-}
-
-.recommendation{
-}
-
-.improvements{
-}
-
-.suggestions{
-}
-
 .radio-control{
     display: inline-block;
     margin-right: 0.625rem;
@@ -124,11 +105,6 @@ body{
 
 label{
     display: flex;
-    vertical-align: ;
-}
-
-.choices{
-
 }
 
 
