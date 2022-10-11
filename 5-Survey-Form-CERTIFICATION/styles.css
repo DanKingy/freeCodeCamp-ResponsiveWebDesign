@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+    background: darkblue;
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* CHANGES SIZE OF FORM ACCORDING TO WINDOW SIZE */
+
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+}
+  
+@media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+}
+
+  @media (min-width: 480px) {
+    .form-control {
+      padding: 2.5rem;
+    }
+}
+
+.container{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.heading{
+    text-align: center;
+}
+
+#name-label, #email-label, #number-label, #role-label, #recommend-label, #improvement-label, #comment-label{
+    text-align: left;
+    margin: 30px auto 6px auto;
+}
+
+#survey-form{
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    background-color: rgba(27, 27, 50, 0.8);
+    border-radius: 1%;
+}
+
+#dropdown{
+}
+
+.form-control{
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    min-height: 30px;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.form-group{
+    overflow: hidden;
+}
+
+#text-area{
+    display: block;
+    width: 99%;
+    min-height: 100px;
+    overflow: auto;
+    resize: none;
+}
+
+#submit{
+    margin-top: 10px;
+    width:100%;
+    min-height: 40px;
+    background-color: #37af65;
+    border: 0px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: inherit;
+}
+
+.personal-information{
+
+}
+
+.current-role{
+}
+
+.recommendation{
+}
+
+.improvements{
+}
+
+.suggestions{
+}
+
+.radio-control{
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+
+}
+
+label{
+    display: flex;
+    vertical-align: ;
+}
+
+.choices{
+
+}
+
+
+/*
+.container{
+    border-color: green;
+    border: 4px;
+    border-style: solid;
+}
+
+.heading{
+    border-color: blue;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.form-group{
+    overflow: hidden;
+    border-color: grey;
+    border-style: solid;
+}
+
+.personal-information{
+    border: 4px aqua solid;
+}
+
+.current-role{
+    border: 4px darkred solid;
+}
+
+.recommendation{
+    border: 4px lightcoral solid;
+}
+
+.improvements{
+    border: 4px seagreen solid;
+}
+
+.suggestions{
+    border: 4px navy solid;
+}
+*/
