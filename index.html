@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Alan Turing Tribute Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Tribute Page to Alan Turing">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <!-- TO DO LIST
+    --------------------
+    [X] 1. Your tribute page should have a main element with a corresponding id of main, which contains all other elements
+    [X] 2. You should see an element with an id of title, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")
+    [X] 3. You should see either a figure or a div element with an id of img-div
+    [X] 4. Within the #img-div element, you should see an img element with a corresponding id="image"
+    [X] 5. Within the #img-div element, you should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in #img-div
+    [X] 6. You should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page
+    [X] 7. You should see an a element with a corresponding id="tribute-link", which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab
+    [X] 8. Your #image should use max-width and height properties to resize responsively, relative to the width of its parent element, without exceeding its original size
+    [X] 9. Your img element should be centered within its parent element -->
+
+    <body>
+        <div class="container">
+            <main id="main">
+                <header class="header">
+                    <article>
+                        <h1 id="title">Alan Mathison Turing</h1>
+                        <p>The father of modern Computer Science</p>
+                    </article>
+                    <figure id="img-div">
+                        <img id="image" src="/10-Tribute-Page-CERTIFICATION/images/Alan-Turing-Aged-16.jpg" alt="Photo of a young Alan Turing" />
+                        <figcaption id="img-caption">Photo of a young Alan Turing</figcaption>
+                    </figure>
+                </header>
+
+                <article id="tribute-info">
+                    <h2>Timeline of Alan Turing's life</h2>
+                    <ul>
+                        <li><span class="bold">1912</span> - born in London, England</li>
+                        <li><span class="bold">1928</span> - Turing first encountered Albert Einstein's work</li>
+                        <li><span class="bold">1930</span> - Turing's first love, Christopher Collan Morcom, died from complications of bovine tuberculosis. He wrote to Morcom's mother: <blockquote>
+                            I am sure I could not have found anywhere another companion so brilliant and yet so charming and unconceited. I regarded my interest in my work, and in such things as astronomy (to which he introduced me) as something to be shared with him and I think he felt a little the same about me ... I know I must put as much energy if not as much interest into my work as if he were alive, because that is what he would like me to do
+                        </blockquote> </li>
+                        <li><span class="bold">1934</span> - Graduates from King's College with a first-class honours in Mathematics</li>
+                        <li><span class="bold">1936</span> - Publishes his paper "On Computable Numbers, with an Application to the Entscheidungsproblem". The paper proved that a hypothetical machine, the Turing machine, is capable of performing any conceivable mathematical computation if it was representable as an algorithm. He then went on to prove that there was no solution to the decision problem. </li>
+                        <li><span class="bold">1936</span> - He spent the next couple of years studying under Alonzo Church, both coming together to form the Church-Turing thesis</li>
+                        <li><span class="bold">1938</span> - He worked with the Government Code and Cypher School (GC&CS), the British codebreaking organisation</li>
+                        <li><span class="bold">1939</span> - Turing reported to Bletchley Park, the wartime station of GC&CS</li>
+                        <li><span class="bold">1940</span> - The first bombe machine was installed in Bletchley Park. Although Polish mathematicians had broke the Enigma, this machine could do it faster and more effectively. It is estimated his work shortened the war in Europe by more than two years and saved over 14 million lives</li>
+                        <li><span class="bold">1941</span> - Turing proposed marriage to Hut 8 colleague Joan Clarke, a fellow mathematician and cryptanalyst, but their engagement was short-lived. After admitting his homosexuality to his fiancee, Turing decided he could not go through with the marriage</li>
+                        <li><span class="bold">1952</span> - Homosexual acts were criminal offences in the UK and Turing was convicted of gross indency. His probation was conditional on his agreement to undergo chemical castration, which rendered Turing impotent and caused breast tissue to form. His conviction also led to the removal of his security clearance and barred him from continuing with his cryptographic consultancy, he kept his academic job however.</li>
+                        <li><span class="bold">1954</span> - Turing died from suspected suicide as a result of cyanide poisoning</li>
+                    </ul>
+                </article>
+                <div id="gallery-container">
+                    <article id="gallery">
+                        <img src="/10-Tribute-Page-CERTIFICATION/images/Alan-Turing-Running.jpg" alt="A photo of Alan Turing" />
+                        <img src="/10-Tribute-Page-CERTIFICATION/images/Joan_Clarke.jpg" alt="A photo of Joan Clarke" />
+                        <img src="/10-Tribute-Page-CERTIFICATION/images/Alonzo_Church.jpg" alt="A photo of Alonzo Church" />
+                        <img src="/10-Tribute-Page-CERTIFICATION/images/Kurt-Godel.jpg" alt="A photo of Kurt Godel" />
+                        <img src="/10-Tribute-Page-CERTIFICATION/images/David-Hilbert.jpg" alt="A photo of David Hilbert" />
+                        <img src="/10-Tribute-Page-CERTIFICATION/images/The-Bombe.jpg" alt="A photo of The Bombe" />
+                    </article>
+                </div>
+
+                <footer>
+                    <p>Additional information about Alan Turing's life can be found <a id="tribute-link" href="https://en.wikipedia.org/wiki/Alan_Turing" target="_blank">here.</a></p>
+                </footer>
+            </main>
+        </div>
+    </body>
+</html>

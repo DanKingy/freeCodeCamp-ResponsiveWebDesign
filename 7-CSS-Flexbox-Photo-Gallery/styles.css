@@ -40,4 +40,5 @@
   .gallery::after {
     content: "";
     width: 350px;
+    object-fit: cover;
   }
